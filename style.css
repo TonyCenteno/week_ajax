@@ -1,0 +1,65 @@
+body {
+    font: 18px arial, sans-serif;
+    background: #000;
+  }
+  #title {
+      margin: 50px auto;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+
+  }
+  #animals {
+    width: 70%;
+  }
+  
+  .animal-item {
+    float: left;
+    padding: 10px;
+  }
+
+
+  input:-webkit-autofill {
+    background-color: #ffffff !important;
+  }
+  
+  form {
+    float: right;
+    width: 30%;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  button,
+  input[type="submit"] {
+    padding: 5px 5px;
+    margin: 0 10px 10px 0;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    background: #2e8637;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  button:hover,
+  input[type="submit"]:hover {
+    background: #2e5730;
+  }
+  
+  button.active {
+    background: #2e5730;
+  }
+  
